@@ -877,15 +877,16 @@ aside.left-panel {
 .right-panel .menutoggle {
   padding-top: 7px; }
 .right-panel .navbar-header {
-  width: 100%;
+  width: 60%;
   background-color: #fff;
-  padding: 0 1.25em 0 0; }
+  padding: 0 1.25em 0 0;
+  height: 5vh; }
   .right-panel .navbar-header > a {
     display: inline-block; }
 .right-panel .navbar-brand {
   line-height: 42px; }
   .right-panel .navbar-brand img {
-    max-width: 145px; }
+    max-width: 100px; }
   .right-panel .navbar-brand.hidden {
     display: none; }
 
@@ -905,7 +906,7 @@ header.fixed-top {
   font-size: 1em;
   height: 40px;
   line-height: 40px;
-  width: 40px;
+  /*width: 40px;*/
   display: block;
   text-align: right; }
 
